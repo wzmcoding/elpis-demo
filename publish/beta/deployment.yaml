@@ -16,8 +16,8 @@ spec:
         app: ed-beta-pod
     spec:
       containers:
-        - image:
-          name: 'xxx'
+        - image: 'xxx'
+          name: ed-beta-container
           ports:
             - containerPort: 8081
       imagePullSecrets:
